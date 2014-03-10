@@ -68,6 +68,22 @@ public class CardDealing{
             cardTop3.add(card);
         }
 
+        if(1==boss){
+        	for(Card card:cardTop3){
+        		cardP1.add(card);
+        	}
+        }
+        if(2==boss){
+        	for(Card card:cardTop3){
+        		cardP2.add(card);
+        	}
+        }
+        if(3==boss){
+        	for(Card card:cardTop3){
+        		cardP3.add(card);
+        	}
+        }
+        
         CardUtil.sortCards(cardP1);
         CardUtil.sortCards(cardP2);
         CardUtil.sortCards(cardP3);
